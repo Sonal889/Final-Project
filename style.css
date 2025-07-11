@@ -1,0 +1,362 @@
+/* Style for header using ID selector */
+#main-header {
+  background-color: #0066cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navigation bar links using class selector */
+.nav-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+/* Body and main content */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section styles */
+section {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color:blue;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Common box styles */
+.box {
+  width: 300px;
+  height: 150px;
+  color: white;
+  line-height: 150px;
+  font-weight: bold;
+}
+
+/* First Box: Custom margins */
+.left-box {
+  background-color: #3498db;
+  margin: 30px 50px 10px 100px;  /* Top, Right, Bottom, Left */
+}
+
+/* Second Box: Centered using margin: auto */
+.centered-box {
+  background-color: #e67e22;
+  margin: 40px auto;  /* Top & Bottom = 40px, Left & Right = auto (centered) */
+}
+.container {
+  background-color: #3498db;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #2980b9;
+
+  /* Try changing these padding values */
+  padding: 30px;       /* All sides: top, right, bottom, left */
+  /* padding: 30px 50px; */  /* Top/Bottom: 30px, Left/Right: 50px */
+  /* padding: 20px 40px 10px 60px; */ /* Top, Right, Bottom, Left */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 40px;
+}
+
+.styled-box {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+
+  /* Border properties */
+  border-width: 5px;
+  border-style: dashed; /* Try: solid, dotted, double, groove */
+  border-color: #e67e22;
+
+  /* Rounded corners */
+  border-radius: 15px;
+
+  /* Optional styling for better appearance */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Landing Project Css */
+
+/* Importing Google Font */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/* Product Section */
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  max-width: 500px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.product-info h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4ca1af;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2c3e50;
+}
+
+/* Flex CSS */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Try changing to column */
+  justify-content: space-around; /* Try: center, space-between, flex-end */
+  align-items: center; /* Try: flex-start, stretch, flex-end */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 1rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Flex items */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Try changing to column */
+  justify-content: space-around; /* Try: center, space-between, flex-end */
+  align-items: center; /* Try: flex-start, stretch, flex-end */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 1rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Flex items */
+.flex-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 120px;
+  flex: 1 1 150px; /* flex-grow: 1; flex-shrink: 1; flex-basis: 150px; */
+}
+
+/* Grid CSS */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas:
+        "header header"
+        "main sidebar"
+        "footer footer";
+    grid-gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: lightblue;
+}
+
+.main {
+    grid-area: main;
+    background-color: lightgreen;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: lightcoral;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightgray;
+}
+
+/* Media Queries */
+/* Mobile-first styles (default) */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header {
+    font-size: 14px;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+/* Tablet view (768px or larger) */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .header {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+}
+
+/* Desktop view (1024px or larger) */
+@media (min-width: 1024px) {
+.header {
+font-size: 20px;
+}
+}
+
+.footer {
+    font-size: 18px;
+}
+
+/*Example: RWD Navigation*/
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+/* Example of RWD */
+/* Base styles for mobile devices */
+body {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* For tablets and larger devices */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+/* For desktops */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        padding: 30px;
+    }
+}
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0">
+This tag sets the width of the page to match the device’s screen width and sets the initial zoom level to 1 (so the page is not zoomed in or out).
+*/
